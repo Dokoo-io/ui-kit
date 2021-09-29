@@ -21,6 +21,16 @@
               </v-card-text>
             </v-card>
           </v-col>
+          <v-col md="4">
+            <v-card>
+              <v-card-title>
+                Form Example
+              </v-card-title>
+              <v-card-text>
+                <form-example />
+              </v-card-text>
+            </v-card>
+          </v-col>
         </v-row>
       </div>
     </v-main>
@@ -28,7 +38,11 @@
 </template>
 
 <script>
+import FormExample from "./components/FormExample";
 export default {
+  components: {
+    FormExample
+  },
   name: 'App',
   data: () => ({
 
