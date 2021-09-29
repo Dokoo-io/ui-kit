@@ -11,7 +11,7 @@
     "vuetify": "2.*"
   },
   "dependencies": {
-    "@dokoo/v-form-builder": "^0.0.4",
+    "@dokoo/v-form-builder": "^0.0.5",
     "@dokoo/v-programmatic-interactions": "^0.0.5",
     "@hammerbot/v-server-table": "^3.0.1",
     "color": "^3.1.3",
