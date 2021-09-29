@@ -1,7 +1,7 @@
 {
   "name": "@dokoo/ui-kit",
   "version": "0.0.2",
-  "main": "src/plugin.js",
+  "main": "src/index.js",
   "author": "Mathieu Marteau",
   "license": "MIT",
   "private": false,

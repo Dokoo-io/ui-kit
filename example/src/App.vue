@@ -15,8 +15,8 @@
                 Example 1
               </v-card-title>
               <v-card-text>
-                <y-btn>
-                  Hello World
+                <y-btn @click="openForm">
+                  Open Modal
                 </y-btn>
               </v-card-text>
             </v-card>
@@ -34,18 +34,40 @@
         </v-row>
       </div>
     </v-main>
+    <interactions />
   </v-app>
 </template>
 
 <script>
 import FormExample from "./components/FormExample";
+import {Interactions} from '@dokoo/ui-kit'
 export default {
   components: {
-    FormExample
+    FormExample,
+    Interactions
   },
   name: 'App',
   data: () => ({
 
-  })
+  }),
+  methods: {
+    openForm () {
+      console.log('helloos')
+      this.$kit.formModal({
+        inputs: [
+          {
+            type: 'text',
+            key: 'test',
+            options: {
+              label: 'Oui monsieur'
+            }
+          }
+        ],
+        onValidate: (data) => {
+          alert(JSON.stringify(data, null, 2))
+        }
+      })
+    }
+  }
 };
 </script>

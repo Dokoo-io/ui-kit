@@ -903,6 +903,11 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@dokoo/v-programmatic-interactions@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@dokoo/v-programmatic-interactions/-/v-programmatic-interactions-0.0.5.tgz#ad35eb7c5c4899d723b4bf6cafead9a3aca31758"
+  integrity sha512-Zfp0vrnzapRkJxDNtUCGoXEOlh56kotwWtBus67gOK09s6KnJm76ZLXeKT1dCA5bzSpklvcQpji/GoIm0ea+hg==
+
 "@hammerbot/v-server-table@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@hammerbot/v-server-table/-/v-server-table-3.0.1.tgz#649b13e8f834cf70e7974058a856cf6d3cedba23"
