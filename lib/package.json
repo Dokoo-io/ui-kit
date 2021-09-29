@@ -1,7 +1,7 @@
 {
   "name": "@dokoo/ui-kit",
-  "version": "0.0.2",
   "main": "src/index.js",
+  "version": "0.0.3",
   "author": "Mathieu Marteau",
   "license": "MIT",
   "private": false,
