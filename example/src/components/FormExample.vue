@@ -15,6 +15,14 @@ export default {
           options: {
             label: 'Some text field'
           }
+        },
+        {
+          type: 'combobox',
+          key: 'test combo',
+          options: {
+            label: 'Some combobox field',
+            multiple: true
+          }
         }
       ]
     }
