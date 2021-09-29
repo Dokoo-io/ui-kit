@@ -14,10 +14,10 @@
   resolved "https://registry.yarnpkg.com/@dokoo/v-programmatic-interactions/-/v-programmatic-interactions-0.0.5.tgz#ad35eb7c5c4899d723b4bf6cafead9a3aca31758"
   integrity sha512-Zfp0vrnzapRkJxDNtUCGoXEOlh56kotwWtBus67gOK09s6KnJm76ZLXeKT1dCA5bzSpklvcQpji/GoIm0ea+hg==
 
-"@hammerbot/v-server-table@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@hammerbot/v-server-table/-/v-server-table-3.0.1.tgz#649b13e8f834cf70e7974058a856cf6d3cedba23"
-  integrity sha512-qwczlxdZtmC7xyagZHdGHBtliFge3vDWAv8ZWJiOAPbAACW+mPoIzj15sUwlzNIBIWIJhDjsr+cNddYHCtxnhQ==
+"@hammerbot/v-server-table@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@hammerbot/v-server-table/-/v-server-table-3.0.2.tgz#e677c3793c3659b84d562c838eeb768465c23cf9"
+  integrity sha512-rCRR8sht7zPeYIegdcYCHhOI/gAURoBh0s1YdPh26BXDn0U56wL0AZC+JaDkZgYBsGjVKc7MVjVPb7d9WYe2rw==
   dependencies:
     lodash.debounce "^4.0.8"
 
