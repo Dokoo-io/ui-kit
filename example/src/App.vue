@@ -29,6 +29,9 @@
               <v-card-text>
                 <form-example />
               </v-card-text>
+              <v-card-text>
+                <app-code>yarn install @dokoo/nuxt</app-code>
+              </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -40,11 +43,13 @@
 
 <script>
 import FormExample from "./components/FormExample";
+import AppCode from "@dokoo/ui-kit/src/helpers/AppCode";
 import {Interactions} from '@dokoo/ui-kit'
 export default {
   components: {
     FormExample,
-    Interactions
+    Interactions,
+    AppCode
   },
   name: 'App',
   data: () => ({
