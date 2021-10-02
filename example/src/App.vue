@@ -30,7 +30,7 @@
                 <form-example />
               </v-card-text>
               <v-card-text>
-                <app-code>yarn install @dokoo/nuxt</app-code>
+                <app-code>{{ nuxt1 }}</app-code>
               </v-card-text>
             </v-card>
           </v-col>
@@ -53,7 +53,21 @@ export default {
   },
   name: 'App',
   data: () => ({
-
+    nuxt1: `export default {
+  ...
+  modules: [
+    '@dokoo/nuxt'
+  ],
+  dokoo: {
+    clients: {
+      marin: {
+        spaceId: '8e458923-64c8-402e-a6a5-48b1be4677ff',
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5ZWxsYXctY21zIiwianRpIjoiZWNjZDNlZmItYWE5MC00MTFmLWE4OTEtYmE3MjkxNWJhZmY4Iiwic3ViIjoidTI4UFZTQ0ZwME45dkt2SjQzMnlLSHd4WUVFMiIsImlhdCI6MTYzMTYyOTkxNX0.lkeyrQ6CCj5Tl_rBhovKLsm2o-9z_WEPp_ITA078_P8'
+      }
+    }
+  }
+  ...
+}`
   }),
   methods: {
     openForm () {

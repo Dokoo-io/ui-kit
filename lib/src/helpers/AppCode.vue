@@ -1,7 +1,7 @@
 <template>
   <div class="app-code">
     <span class="d-flex">
-      <span class="d-block flex-grow-1">
+      <span class="d-block flex-grow-1" style="overflow: auto;">
         <pre><slot /></pre>
       </span>
       <y-btn @click="$kit.helpers.copy($slots.default)" small icon="content_copy" />
@@ -20,5 +20,8 @@ export default {}
   background: #f8f8f8;
   border-radius: 3px;
   position: relative;
+  pre {
+    white-space: pre-wrap;
+  }
 }
 </style>
