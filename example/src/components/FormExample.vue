@@ -23,6 +23,14 @@ export default {
             label: 'Some combobox field',
             multiple: true
           }
+        },
+        {
+          type: 'date',
+          key: 'my date'
+        },
+        {
+          type: 'dateTime',
+          key: 'my date and time'
         }
       ]
     }

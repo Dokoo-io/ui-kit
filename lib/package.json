@@ -16,6 +16,7 @@
     "@hammerbot/v-server-table": "^3.0.2",
     "color": "^3.1.3",
     "copy-to-clipboard": "^3.3.1",
+    "moment": "^2.29.1",
     "uuid": "^8.3.2"
   },
   "eslintConfig": {
