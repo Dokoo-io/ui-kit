@@ -12,6 +12,7 @@
         <y-text-field
             v-model="internalDateValue"
             prepend-inner-icon="mdi-calendar"
+            :label="label"
             readonly
             v-bind="attrs"
             v-on="on"
@@ -55,6 +56,11 @@ import moment from 'moment'
 export default {
   props: {
     value: {
+      required: false,
+      default: null,
+      type: String
+    },
+    label: {
       required: false,
       default: null,
       type: String
