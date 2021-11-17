@@ -9,10 +9,10 @@
   dependencies:
     lodash "^4.17.21"
 
-"@dokoo/v-programmatic-interactions@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@dokoo/v-programmatic-interactions/-/v-programmatic-interactions-0.0.5.tgz#ad35eb7c5c4899d723b4bf6cafead9a3aca31758"
-  integrity sha512-Zfp0vrnzapRkJxDNtUCGoXEOlh56kotwWtBus67gOK09s6KnJm76ZLXeKT1dCA5bzSpklvcQpji/GoIm0ea+hg==
+"@dokoo/v-programmatic-interactions@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@dokoo/v-programmatic-interactions/-/v-programmatic-interactions-0.0.6.tgz#e99d1c14e984b42631618d687bb00f4cb591140e"
+  integrity sha512-GTXSxkWb2Hj7FGxzbS+opF7yPPRGJyMO6CHDugeKGq3DcZC61SCMmwZ/zyZRjv0Rym2xlt63HTrpOfcvYF+dUg==
 
 "@hammerbot/v-server-table@^3.0.2":
   version "3.0.2"
