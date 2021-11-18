@@ -33,7 +33,8 @@ export default {
       return this.$slots.fetching
     } else if (this.$scopedSlots.default) {
       return this.$scopedSlots.default({
-        data: this.result
+        data: this.result,
+        fetching: this.fetching
       })
     } else if (this.$slots.refetching) {
       return this.$slots.refetching
