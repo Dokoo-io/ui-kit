@@ -4,7 +4,7 @@
       <span class="d-block flex-grow-1" style="overflow: auto;">
         <pre><slot /></pre>
       </span>
-      <y-btn @click="$kit.helpers.copy($slots.default)" small icon="content_copy" />
+      <y-btn @click="$kit.helpers.copy($slots.default[0].text)" small icon="content_copy" />
     </span>
   </div>
 </template>
