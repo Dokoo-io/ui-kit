@@ -24,6 +24,7 @@ export default {
 <style>
 .theme--light.v-application code {
   background: #2E3440;
+  color: #D8DEE9;
 }
 </style>
 
