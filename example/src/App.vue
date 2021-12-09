@@ -30,7 +30,7 @@
                 <form-example />
               </v-card-text>
               <v-card-text>
-                <app-code>{{ nuxt1 }}</app-code>
+                <app-code language="javascript">{{ nuxt1 }}</app-code>
               </v-card-text>
             </v-card>
           </v-col>

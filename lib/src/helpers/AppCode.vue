@@ -2,7 +2,7 @@
   <div class="app-code">
     <span class="d-flex">
       <span class="d-block flex-grow-1" style="overflow: auto;">
-        <pre><slot /></pre>
+        <highlightjs language="javascript" :code="$slots.default[0].text" />
       </span>
       <y-btn @click="$kit.helpers.copy($slots.default[0].text)" small icon="content_copy" />
     </span>
@@ -10,14 +10,28 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    language: {
+      required: false,
+      type: String,
+      default: null
+    }
+  }
+}
 </script>
+
+<style>
+.theme--light.v-application code {
+  background: #2E3440;
+}
+</style>
 
 <style lang="scss" scoped>
 .app-code {
+  color: #D8DEE9;
   padding: 20px;
-  color: #3b3b3b;
-  background: #f8f8f8;
+  background: #2E3440;
   border-radius: 3px;
   position: relative;
   pre {

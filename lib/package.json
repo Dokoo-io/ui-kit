@@ -14,8 +14,10 @@
     "@dokoo/v-form-builder": "^0.0.5",
     "@dokoo/v-programmatic-interactions": "^0.0.6",
     "@hammerbot/v-server-table": "^3.0.2",
+    "@highlightjs/vue-plugin": "^1",
     "color": "^3.1.3",
     "copy-to-clipboard": "^3.3.1",
+    "highlight.js": "^10",
     "moment": "^2.29.1",
     "uuid": "^8.3.2"
   },
