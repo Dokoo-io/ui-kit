@@ -18,6 +18,7 @@
       ref="form"
       :initial-value="initialValue"
       :error="error"
+      @close="$emit('close')"
     />
     <v-card-actions>
       <v-spacer />
