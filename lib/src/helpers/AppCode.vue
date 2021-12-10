@@ -23,20 +23,21 @@ export default {
 
 <style>
 .theme--light.v-application code {
-  background: #2E3440;
-  color: #D8DEE9;
+  background-color: transparent !important;
+  color: #adbac7 !important;
 }
 </style>
 
 <style lang="scss" scoped>
 .app-code {
-  color: #D8DEE9;
+  // color: #D8DEE9;
   padding: 20px;
-  background: #2E3440;
+  background: #22272e;
   border-radius: 3px;
   position: relative;
   pre {
     white-space: pre-wrap;
+    font-size: 1.05rem;
   }
 }
 </style>
