@@ -1,7 +1,13 @@
 <template>
-  <y-form
-    :inputs="inputs"
-  />
+  <div>
+    <y-form
+        v-model="internalValue"
+        :inputs="inputs"
+    />
+    <div>
+      {{ internalValue }}
+    </div>
+  </div>
 </template>
 
 <script>
@@ -31,8 +37,16 @@ export default {
         {
           type: 'dateTime',
           key: 'my date and time'
+        },
+        {
+          type: 'file',
+          key: 'my_file',
+          options: {
+            label: 'My File input'
+          }
         }
-      ]
+      ],
+      internalValue: {}
     }
   }
 }

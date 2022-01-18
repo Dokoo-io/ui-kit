@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@dokoo/v-form-builder@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@dokoo/v-form-builder/-/v-form-builder-0.0.5.tgz#b6894fb8cb22547e42214a07b9b276f034092827"
-  integrity sha512-RvyXWu7VEAnvfH/ieKN5shiIhahuDuTRMLu/Ir8bWWHFCkSF/c8a8HpyleIEwXP1xCu99Ed8Zy7vbmHqNaw0HA==
+"@dokoo/v-form-builder@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@dokoo/v-form-builder/-/v-form-builder-0.0.7.tgz#546e5b770718cb45addbd3dcf33d8adcd0ca448d"
+  integrity sha512-KIeGGiz9tD3umZ4vWy/iAxmyB8m3eQfC+Yj4XVimpip7v4j9kcDGYSyTfbmix7mE/Rq8lVUkF6QjoQ64jd6zaA==
   dependencies:
     lodash "^4.17.21"
 
